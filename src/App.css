@@ -1,0 +1,40 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f5f8fa;
+}
+
+.join-chat-container, .chat-container {
+  margin: 50px auto;
+  max-width: 420px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 7px 24px #0001;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input[type="text"], input[type="password"], input[readonly] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.messages-window {
+  border: 1px solid #eee;
+  min-height: 220px;
+  max-height: 300px;
+  overflow-y: auto;
+  border-radius: 6px;
+  background: #f9fbfd;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+form {
+  display: flex;
+  gap: 6px;
+}
+form input {
+  flex: 1;
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -20,6 +21,13 @@ function App() {
       </header>
     </div>
   );
+=======
+import React from 'react';
+import Chat from './Chat';
+
+function App() {
+  return <Chat />;
+>>>>>>> b3316f318bb02a1dcbcb2a1c5f0c2779c0f6112f
 }
 
 export default App;

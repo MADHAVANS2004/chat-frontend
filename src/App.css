@@ -36,7 +36,7 @@
   to {
     transform: rotate(360deg);
   }
-=======
+}
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   background: #f5f8fa;
@@ -76,5 +76,4 @@ form {
 }
 form input {
   flex: 1;
->>>>>>> b3316f318bb02a1dcbcb2a1c5f0c2779c0f6112f
 }
